@@ -17,8 +17,7 @@ export const DependencyDialogBody: FC<DependencyDialogBodyProps> = ({
 }) => (
   <>
     <p>
-      <b>{dependencyAddon.name}</b> by <b>{dependencyPublisher.name}</b> needs to be installed to use the full
-      functionality of <b>{addon.name}</b>.
+      Additional features are available to you when <b>{dependencyAddon.name}</b> by <b>{dependencyPublisher.name}</b> is installed.
     </p>
 
     <div className="my-6 flex items-center gap-x-7 rounded-md bg-navy px-7 py-6">

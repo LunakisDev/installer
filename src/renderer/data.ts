@@ -132,7 +132,7 @@ export const defaultConfiguration: Configuration = {
               addon: '@flybywiresim/simbridge',
               optional: true,
               modalText:
-                'SimBridge allows the A32NX to expose remote tools like the Web MCDU, as well as use the external terrain database.',
+                'SimBridge allows the A32NX & A380X to expose remote tools like the Web MCDU, as well as use the external terrain database.',
             },
           ],
           incompatibleAddons: [
